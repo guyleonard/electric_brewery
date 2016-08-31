@@ -8,8 +8,6 @@ void loop() {
   //TEMPERATURE SETTINGS
   temperature = temperatureFunction2();
 
-
-
   //Switch on the heaters if the function calls for this
   digitalWrite(heaterElement1, heater1);
   digitalWrite(heaterElement2, heater2);

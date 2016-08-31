@@ -21,7 +21,6 @@ int heaterBlynk1 = LOW;
 
 int iceNeeded = liters;
 
-
 // Brew Stage Switch in BLUE
 int switch1 = 0;
 int switchState = 0;

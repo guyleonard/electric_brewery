@@ -1,5 +1,4 @@
 // Recipe Settings
-
 // Liters you will make
 int liters = 25; //The number of liters of boiled wort you are planning on having AFTER the boil.
 

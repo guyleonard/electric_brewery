@@ -3,7 +3,7 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-//OLED DISPLAY
+// OLED DISPLAY
 // SCL GPIO5 = D1
 // SDA GPIO4 = D2
 #define OLED_RESET 0  // GPIO0

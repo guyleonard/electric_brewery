@@ -39,7 +39,6 @@ void blynkUpdate3 () {
 // and records the time until LOW
 // and then converts it to the current temperature
 // it needs some work, renaming and averaging
-
 float temperatureFunction2 () {
   timeNowNano = millis();
   nano_a1_pin_current = digitalRead(D0);
