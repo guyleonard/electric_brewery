@@ -1,14 +1,11 @@
-
-//OLED DISPLAY
-
-
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
-// SCL GPIO5
-// SDA GPIO4
+//OLED DISPLAY
+// SCL GPIO5 = D1
+// SDA GPIO4 = D2
 #define OLED_RESET 0  // GPIO0
 Adafruit_SSD1306 display(OLED_RESET);
 
@@ -41,25 +38,13 @@ static const unsigned char PROGMEM logo16_glcd_bmp[] =
 #endif
 
 // TEMPERATURE SENSOR
-
 unsigned long lastlasttime;
 unsigned long Nownow;
 
-
-//BLYNK:
-
+//BLYNK
 #define BLYNK_PRINT Serial    // Comment this out to disable prints and save space
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-
-// You should get Auth Token in the Blynk App.
-// Go to the Project Settings (nut icon).
-
 WidgetTerminal terminal(V1);
 WidgetLCD lcd(V3);
-
-
-
-
-
